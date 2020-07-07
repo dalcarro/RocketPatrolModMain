@@ -5,7 +5,6 @@ config = {
     width: 640,
     height: 480,
     scene: [Menu,Play]
-
 }
 //creates main game object
 let game = new Phaser.Game(config);
@@ -14,6 +13,6 @@ let game = new Phaser.Game(config);
 game.settings = {
     spaceshipSpeed: 3, gameTimer:6000
 }
-
+let score = 0;
 //reserve some keyboard bindings
 let keyF, keyLEFT, keyRIGHT;
